@@ -1,8 +1,9 @@
--- The dataset and this codebook was generated using the dataset related to  
+The dataset and this codebook was generated using the dataset related to  
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
----
+
+WearablesDS1.CSV: 
 
 activity [factor] - activity performed 
 testsubject [factor] - test subject out of 30 volunteers
@@ -35,4 +36,8 @@ The set of variables that were estimated from these signals are:
 
 mean(): Mean value
 std(): Standard deviation
+
+WearablesDS2.csv
+
+same as above but aggregated by activity & testsubject by applying the mean to each variable 
 
