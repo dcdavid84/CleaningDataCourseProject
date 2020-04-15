@@ -16,12 +16,12 @@ The below provides a description and type related to variables found in the data
 **tBodyAccJerkMag**    time domain jerk signal    *(numeric)*  
 **tBodyGyroMag**    time domain gyroscope signal    *(numeric)*  
 **tBodyGyroJerkMag**    time domain jerk signal    *(numeric)*  
-**fBodyAcc-XYZ**    frequency domain signal body acceleration *(numeric)* 
+**fBodyAcc-XYZ**    frequency domain signal body acceleration *(numeric)*  
 **fBodyAccJerk-XYZ**    frequency domain jerk signale    *(numeric)*  
 **fBodyGyro-XYZ**    frequency domain signal gyroscope *(numeric)*  
 **fBodyAccMag**    frequency domain signal body acceleration *(numeric)*  
 **fBodyAccJerkMag**    frequency domain jerk signal *(numeric)*  
-**fBodyGyroMag**    frequency domain gyroscope signal *(numeric)* 
+**fBodyGyroMag**    frequency domain gyroscope signal *(numeric)*  
 **fBodyGyroJerkMag**     frequency domain gyroscope signal *(numeric)*  
 \
 Numeric data is standardized.
