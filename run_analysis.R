@@ -40,4 +40,13 @@ filtered_dataset <- dataset_total %>% select(activity, testsubject, matches("mea
 filtered_dataset <- filtered_dataset %>% mutate(testsubject=as.factor(testsubject), activity=as.factor(activity))
 levels(filtered_dataset$activity)<-as.character(activities)
 
-View(filtered_dataset)
+## Write new dataset into file
+write.csv(filtered_dataset, file="WearablesDS1.csv")
+
+## Create second dataset with average of each variable for each activity and each subject 
+filtered_dataset %>% group_by(activity,testsubject) %>% summarize_all(list(mean=mean))-> summarized_dataset
+write.table(summarized_dataset, file="WearablesDS2.txt", row.name=FALSE)
+
+
+
+
